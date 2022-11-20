@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
   res.send("Hello to Trash-Terminator");
 });
 
-const PORT = process.env.PORT || 5000;
+var PORT = process.env.PORT || 5000;
 const url = process.env.CONNECTION_URL;
 
 if (process.env.NODE_ENV == "production") {
