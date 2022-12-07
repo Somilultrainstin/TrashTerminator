@@ -13,11 +13,11 @@ const aboutPage = () => (
 
     <Row className="d-flex justify-content-left">
       <p className={classes.aboutPara}>
-        Trash Terminator was founded in 2022 to make dry-waste disposal
-        sustainable and clean across the country. To ensure accuracy, we studied
-        prior to founding and then worked on ground level to ensure the
-        transparency in the system.So that everyone can get the required amount
-        for their dry waste and also the collector get benefitted by it.
+        ScrapDeal was founded in 2022 to make dry-waste disposal sustainable and
+        clean across the country. To ensure accuracy, we studied prior to
+        founding and then worked on ground level to ensure the transparency in
+        the system.So that everyone can get the required amount for their dry
+        waste and also the collector get benefitted by it.
       </p>
     </Row>
 

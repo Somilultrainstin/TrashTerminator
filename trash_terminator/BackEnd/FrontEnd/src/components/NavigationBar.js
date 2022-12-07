@@ -8,7 +8,7 @@ const NavigationBar = () => {
     return (
       <Navbar bg="light" expand="lg" sticky="top">
         <Navbar.Brand href="/">
-          Trash<span style={{ color: "grey" }}> Termionator</span>
+          Scrap<span style={{ color: "grey" }}>Deal</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -32,7 +32,7 @@ const NavigationBar = () => {
     return (
       <Navbar bg="light" expand="lg" sticky="top">
         <Navbar.Brand href="/">
-          Trash<span style={{ color: "grey" }}> Terminator</span>
+          Scrap<span style={{ color: "grey" }}>Deal</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -57,7 +57,7 @@ const NavigationBar = () => {
     return (
       <Navbar bg="light" expand="lg" sticky="top">
         <Navbar.Brand href="/">
-          Trash<span style={{ color: "grey" }}> Terminator</span>
+          Scrap<span style={{ color: "grey" }}>Deal</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

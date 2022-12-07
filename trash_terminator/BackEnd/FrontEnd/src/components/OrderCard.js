@@ -5,9 +5,9 @@ import classes from "./OrderCard.module.css";
 
 const SocialCard = ({ userData }) => {
   const [color, setColor] = useState("primary");
-  const [buttonText, setbuttonText] = useState("Available");
+  const [buttonText, setbuttonText] = useState("Accept");
   function lockButtonClicked() {
-    if (buttonText === "Available") {
+    if (buttonText === "Accept") {
       Axios.patch(
         "http://localhost:5000/posts/updateOrders",
         {
@@ -43,7 +43,7 @@ const SocialCard = ({ userData }) => {
         if (response.status === 202) {
           alert("Order Updated!!");
           setColor("primary");
-          setbuttonText("Available");
+          setbuttonText("Accept");
         } else if (response.status === 401) {
           alert("Unable to update");
         }

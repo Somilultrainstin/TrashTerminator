@@ -51,7 +51,7 @@ const homePage = () => {
             <Image src={EncashImg} />
             <h4 className={classes.serviceHead}>3. Encash</h4>
             <p className={classes.servicePara}>
-              Cash for your Trash is instantly given to you by the collector.
+              Cash for your S is instantly given to you by the collector.
             </p>
           </div>
           <div className="card col-lg-3 col-md-6 text-center">
@@ -140,9 +140,7 @@ const homePage = () => {
           </i>
         </Row>
         <Row className="d-flex justify-content-center mt-2 mb-1">
-          <h6 style={{ color: "#49B7F4" }}>
-            © Copyright 2022 Trash Terminator
-          </h6>
+          <h6 style={{ color: "#49B7F4" }}>© Copyright 2022 ScrapDeal</h6>
         </Row>
       </Container>
     </div>

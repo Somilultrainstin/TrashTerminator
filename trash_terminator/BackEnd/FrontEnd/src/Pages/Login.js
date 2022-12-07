@@ -89,9 +89,7 @@ const LoginPage = () => {
             </i>
           </Row>
           <Row className="d-flex justify-content-center mt-2 mb-1">
-            <h6 style={{ color: "#49b7f4" }}>
-              © Copyright 2022 Trash Terminator
-            </h6>
+            <h6 style={{ color: "#49b7f4" }}>© Copyright 2022 ScrapDeal</h6>
           </Row>
         </div>
       </div>

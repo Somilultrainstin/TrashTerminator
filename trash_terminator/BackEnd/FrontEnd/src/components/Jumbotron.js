@@ -10,13 +10,13 @@ const Jumbotron = () => (
         <p>
           <b>
             {" "}
-            <span style={{ color: "#49b7f4" }}>Trash</span>{" "}
-            <span style={{ color: "darkgrey" }}>Terminator</span>{" "}
+            <span style={{ color: "#49b7f4" }}>Scrap</span>
+            <span style={{ color: "darkgrey" }}>Deal</span>{" "}
           </b>
         </p>
       </h1>
       <p className={classes.textHeaderPara}>
-        Sell Your Trash at your <b style={{ color: "#49b7f4" }}>door step </b>{" "}
+        Sell Your Scrap at your <b style={{ color: "#49b7f4" }}>door step </b>{" "}
         and contribute in{" "}
         <b style={{ color: "#49b7f4" }}>proper waste managment</b>. So that we
         can make our country{" "}

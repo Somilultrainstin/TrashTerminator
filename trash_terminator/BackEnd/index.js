@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 app.use("/posts", post);
 app.get("/", (req, res) => {
-  res.send("Hello to Trash-Terminator");
+  res.send("Hello to ScrapDeal");
 });
 
 var PORT = process.env.PORT || 5000;
@@ -32,7 +32,7 @@ mongoose
   .connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-  }) 
+  })
   .then(() =>
     app.listen(PORT, () => console.log(`server running on port: ${PORT}`))
   )
